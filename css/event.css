@@ -1,0 +1,71 @@
+.img_ev_in{width:100%;height: 140px;margin-left:-8px;margin-top:-2px}
+
+.schedule td
+{
+padding:5px !important;
+}
+
+table>tbody > tr > td {
+	border-top: none !important;
+}
+
+.button-footer {
+	position: relative; bottom: 40px; text-align: center;
+}
+
+.full-row {
+    margin-bottom: 2em;
+    margin-top:-10px
+  }
+.event-tab > div {
+   display: block;
+  background-color: #ddd;
+  text-align: center;
+  padding: 0.75em;
+  text-decoration: none;
+  color: #0b111e;
+  transition: all 0.2s;
+  border-right:1px solid #ccc;
+  border-bottom:1px solid #ccc;  
+}
+.event-tab { 
+   padding: 0px;
+}
+
+.event-tab div:hover{
+    border-bottom: 2px solid #627aac;
+	color: #383838;
+}
+
+.event-tab-active{
+ border-bottom: 2px solid #627aac;
+ color: #383838;
+ padding:0
+}
+
+.discription {
+    position: relative;
+}
+
+ .createevent-content {
+        background-color: #e9e9e9;
+    
+    }
+.createevent-header {
+         background-color: #0A1F33;  
+         color: #fff;   
+         border-bottom: 3px solid #75A319;    
+}
+.createevent-header .close{
+color:#fff !important;
+}
+
+.modal-event-description{padding:10px 20px 5px 5px;text-align:justify} 
+
+/*intern cs*/
+.side{padding: 5px 0px 10px 5px;min-height:150px}
+.side .table{margin-bottom:0px !important}
+.button-footer-intern{margin-bottom:-10px !important;position:intial !important;text-align:center}	
+.button-footer-intern .btn-event{background-color:#777;border-color:#777}
+.intern_side{width:100%;height: 140px;margin-left:-2px;margin-top:-2px'}
+			
