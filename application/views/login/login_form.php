@@ -40,12 +40,12 @@
 		
 			<?php
 			 // Attributes for HTML
-			 $fattr = array('class'=>"form-horizontal",'id'=>"loginForm",'name'=>"loginForm");
+			 $fattr = array('class'=>"form-horizontal",'id'=>"loginForm",'name'=>"loginForm" , 'method'=>'POST');
 			 $uattr = array('id'=>"username" ,'type'=>"text", 'class'=>"form-control" ,'name'=>"login", 'placeholder'=>"Student/Faculty Id");
 			 $pattr = array('id'=>"password" , 'class'=>"form-control" ,'name'=>"password", 'placeholder'=>"Password");
 			 $rtattr = array('value'=>"login-faculty" ,'name'=>"category" ,'checked'=>TRUE);
-			 $rsattr = array('value'=>"login-student" ,'name'=>"category" ,'checked'=>TRUE);
-			 $chkrem = array('type'=>"checkbox",'name'=>"remme" ,'id'=>"remme");
+			 $rsattr = array('value'=>"login-student" ,'name'=>"category" ,'checked'=>FALSE);
+			 $chkrem = array('type'=>"checkbox",'name'=>"remme" ,'id'=>"remme", 'value'=>'accept', 'checked'=> TRUE);
 			 $butsub = array ('class'=>"btn btn-success", 'id'=>"login_button", 'type'=>"submit", 'style'=>"width:60%;margin-top:15px;margin-bottom:15px");
 			 
 			 echo form_open('loginmanager/process_form', $fattr);

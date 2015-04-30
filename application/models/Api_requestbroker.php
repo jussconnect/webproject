@@ -6,8 +6,7 @@ class Api_requestbroker extends CI_Model{
 	}
 	
 	public function authenticate($userdata){
-		
-		#echo $userdata['username'] , $userdata['password'];
+	
 		if($userdata['username'] == 'pradeep' && $userdata['password']=='pradeep'){
 			$sess_data = array(
 			'username' => "Pradeep", 
